@@ -5,3 +5,5 @@ string values: cat dog bat fish turtle
 """
 
 animals = "cat","dog","bat","fish","turtle"
+for i in animals:
+    print(i)

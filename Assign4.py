@@ -18,3 +18,17 @@ invitations to send.
 This program will require you to incorporate everything we
 have learned so far.
 """
+name=[]
+a=0
+for i in range(1,1001):
+    x = input("Friends' name")
+    if x in name:
+        print("That name is already on the list")
+    elif x == "":
+        name.sort()
+        print(name)
+        print(f"You have invited {a} people")
+        break
+    else:
+        name.append(x)
+        a+=1
